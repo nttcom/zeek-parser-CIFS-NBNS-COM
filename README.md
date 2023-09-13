@@ -1,4 +1,4 @@
-# zeek-parser-NBNS
+# Zeek-Parser-NBNS
 
 English is [here](https://github.com/nttcom/zeek-parser-NBNS/blob/main/README_en.md)
 
@@ -60,7 +60,7 @@ spicyc v1.5.0 (d0bc6053)
 ```
 
 ## ログのタイプと説明
-本プラグインはcifsの全ての関数を監視して`nbns.log`として出力します。
+本プラグインはnbnsの全ての関数を監視して`nbns.log`として出力します。
 
 | フィールド | タイプ | 説明 |
 | --- | --- | --- |
