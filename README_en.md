@@ -59,7 +59,7 @@ This plug-in generates a `nbns.log` by the command below:
 ```
 
 ## Log type and description
-This plug-in monitors all functions of cifs and outputs them as `nbns.log`.
+This plug-in monitors all functions of nbns and outputs them as `nbns.log`.
 
 | Field | Type | Description |
 | --- | --- | --- |
