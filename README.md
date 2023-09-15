@@ -1,10 +1,10 @@
-# Zeek-Parser-NBNS
+# Zeek-Parser-CIFS-NBNS-COM
 
 English is [here](https://github.com/nttcom/zeek-parser-NBNS/blob/main/README_en.md)
 
 ## 概要
 
-Zeek-Parser-NBNSとはNBNSを解析できるZeekプラグインです。
+Zeek-Parser-CIFS-NBNS-COMとはNetBios Protocolを解析できるZeekプラグインです。
 
 ## 使い方
 
@@ -66,9 +66,9 @@ spicyc v1.5.0 (d0bc6053)
 | --- | --- | --- |
 | ts | time | 通信した時のタイムスタンプ |
 | SrcIP | addr | 送信元IPアドレス  |
-| SrcMAC | string | 送信元macアドレス |
+| SrcMAC | string | 送信元MACアドレス |
 | Name | string | デバイス名やモデル番号 |
-| TTL | count | 生存時間(データの有効期限、破棄されるまでの残り時間) |
+| TTL | count | 生存時間（データの有効期限、破棄されるまでの残り時間） |
 | ServerType | string | サーバーのタイプ |
 
 `nbns.log` の例は以下のとおりです。
@@ -87,7 +87,7 @@ spicyc v1.5.0 (d0bc6053)
 #close	2023-09-13-04-00-57
 ```
 
-## 関連ソフトウエア
+## ソフトウェア
 
 本プラグインは[OsecT](https://github.com/nttcom/OsecT)で利用されています。
 
