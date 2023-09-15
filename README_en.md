@@ -28,12 +28,12 @@ spicyc v1.5.0 (d0bc6053)
 
 Use `git clone` to get a copy of this repository to your local environment.
 ```
-~$ git clone https://github.com/nttcom/zeek-parser-NBNS.git
+~$ git clone https://github.com/nttcom/zeek-parser-CIFS-NBNS-COM.git
 ```
 
 Compile source code and copy the object files to the following path.
 ```
-~$ cd ~/zeek-parser-NBNS/analyzer
+~$ cd ~/zeek-parser-CIFS-NBNS-COM/analyzer
 ~$ spicyz -o nbns.hlto nbns.spicy nbns.evt
 # nbns.hlto will be generated
 ~$ cp nbns.hlto /usr/local/zeek/lib/zeek-spicy/modules/
@@ -41,7 +41,7 @@ Compile source code and copy the object files to the following path.
 
 Then, copy the zeek file to the following paths.
 ```
-~$ cd ~/zeek-parser-NBNS/scripts/
+~$ cd ~/zeek-parser-CIFS-NBNS-COM/scripts/
 ~$ cp main.zeek /usr/local/zeek/share/zeek/site/
 ```
 
@@ -54,7 +54,7 @@ Finally, import the Zeek plugin.
 
 This plug-in generates a `nbns.log` by the command below:
 ```
-~$ cd ~/zeek-parser-NBNS/testing/Traces
+~$ cd ~/zeek-parser-CIFS-NBNS-COM/testing/Traces
 ~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/main.zeek
 ```
 
