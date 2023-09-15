@@ -87,7 +87,7 @@ spicyc v1.5.0 (d0bc6053)
 #close	2023-09-13-04-00-57
 ```
 
-## ソフトウェア
+## 関連ソフトウェア
 
 本プラグインは[OsecT](https://github.com/nttcom/OsecT)で利用されています。
 
