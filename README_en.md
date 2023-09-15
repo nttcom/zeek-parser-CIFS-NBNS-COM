@@ -1,8 +1,8 @@
-# Zeek-Parser-NBNS
+# Zeek-Parser-CIFS-NBNS-COM
 
 ## Overview
 
-Zeek-Parser-NBNS is a Zeek plug-in that can analyze communication using NBNS.
+Zeek-Parser-CIFS-NBNS-COM is a Zeek plug-in that can analyze communication using NetBios Protocol.
 
 ## Usage
 
