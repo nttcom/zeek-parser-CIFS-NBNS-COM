@@ -29,12 +29,12 @@ spicyc v1.5.0 (d0bc6053)
 
 本リポジトリをローカル環境に `git clone` します。
 ```
-~$ git clone https://github.com/nttcom/zeek-parser-NBNS.git
+~$ git clone https://github.com/nttcom/zeek-parser-CIFS-NBNS-COM.git
 ```
 
 ソースコードをコンパイルして、オブジェクトファイルを以下のパスにコピーします。
 ```
-~$ cd ~/zeek-parser-NBNS/analyzer
+~$ cd ~/zeek-parser-CIFS-NBNS-COM/analyzer
 ~$ spicyz -o nbns.hlto nbns.spicy nbns.evt
 # nbns.hltoが生成されます
 ~$ cp nbns.hlto /usr/local/zeek/lib/zeek-spicy/modules/
@@ -42,7 +42,7 @@ spicyc v1.5.0 (d0bc6053)
 
 同様にZeekファイルを以下のパスにコピーします。
 ```
-~$ cd ~/zeek-parser-NBNS/scripts/
+~$ cd ~/zeek-parser-CIFS-NBNS-COM/scripts/
 ~$ cp main.zeek /usr/local/zeek/share/zeek/site/
 ```
 
@@ -55,7 +55,7 @@ spicyc v1.5.0 (d0bc6053)
 
 本プラグインを使うことで `nbns.log` が生成されます。
 ```
-~$ cd ~/zeek-parser-NBNS/testing/Traces
+~$ cd ~/zeek-parser-CIFS-NBNS-COM/testing/Traces
 ~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/main.zeek
 ```
 
