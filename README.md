@@ -37,13 +37,13 @@ spicyc v1.5.0 (d0bc6053)
 ~$ cd ~/zeek-parser-CIFS-NBNS-COM/analyzer
 ~$ spicyz -o nbns.hlto nbns.spicy nbns.evt
 # nbns.hltoが生成されます
-~$ cp nbns.hlto /usr/local/zeek/lib/zeek-spicy/modules/NBNS.zeek
+~$ cp nbns.hlto /usr/local/zeek/lib/zeek-spicy/modules/
 ```
 
 同様にZeekファイルを以下のパスにコピーします。
 ```
 ~$ cd ~/zeek-parser-CIFS-NBNS-COM/scripts/
-~$ cp main.zeek /usr/local/zeek/share/zeek/site/
+~$ cp main.zeek /usr/local/zeek/share/zeek/site/NBNS.zeek
 ```
 
 最後にZeekプラグインをインポートします。
