@@ -37,7 +37,7 @@ spicyc v1.5.0 (d0bc6053)
 ~$ cd ~/zeek-parser-CIFS-NBNS-COM/analyzer
 ~$ spicyz -o nbns.hlto nbns.spicy nbns.evt
 # nbns.hltoが生成されます
-~$ cp nbns.hlto /usr/local/zeek/lib/zeek-spicy/modules/
+~$ cp nbns.hlto /usr/local/zeek/lib/zeek-spicy/modules/NBNS.zeek
 ```
 
 同様にZeekファイルを以下のパスにコピーします。
@@ -56,7 +56,7 @@ spicyc v1.5.0 (d0bc6053)
 本プラグインを使うことで `nbns.log` が生成されます。
 ```
 ~$ cd ~/zeek-parser-CIFS-NBNS-COM/testing/Traces
-~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/main.zeek
+~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/NBNS.zeek
 ```
 
 ## ログのタイプと説明
