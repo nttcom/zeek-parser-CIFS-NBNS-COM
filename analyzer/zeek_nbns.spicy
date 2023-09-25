@@ -15,6 +15,6 @@ import zeek;
 # }
 
 # Any error bubbling up to the top unit will trigger a protocol rejection.
-on NBNS::Packet::%error {
-    zeek::reject_protocol("error while parsing NBNS");
-}
+# on NBNS::Packet::%error {
+#     zeek::reject_protocol("error while parsing NBNS");
+# }
