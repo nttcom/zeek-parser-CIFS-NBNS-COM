@@ -112,5 +112,3 @@ An example of `nbns.log` is as follows:
 ## Related Software
 
 This plug-in is used by [OsecT](https://github.com/nttcom/OsecT).
-
-
